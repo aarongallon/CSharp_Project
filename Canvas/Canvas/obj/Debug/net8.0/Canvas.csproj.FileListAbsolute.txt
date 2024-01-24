@@ -13,3 +13,17 @@
 /Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/Canvas.genruntimeconfig.cache
 /Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/ref/Canvas.dll
 /Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/Canvas.sourcelink.json
+c:\Users\Corso\Desktop\Canvas\Canvas\bin\Debug\net8.0\Canvas.exe
+c:\Users\Corso\Desktop\Canvas\Canvas\bin\Debug\net8.0\Canvas.deps.json
+c:\Users\Corso\Desktop\Canvas\Canvas\bin\Debug\net8.0\Canvas.runtimeconfig.json
+c:\Users\Corso\Desktop\Canvas\Canvas\bin\Debug\net8.0\Canvas.dll
+c:\Users\Corso\Desktop\Canvas\Canvas\bin\Debug\net8.0\Canvas.pdb
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.AssemblyInfoInputs.cache
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.AssemblyInfo.cs
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.csproj.CoreCompileInputs.cache
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.dll
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\refint\Canvas.dll
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.pdb
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\Canvas.genruntimeconfig.cache
+c:\Users\Corso\Desktop\Canvas\Canvas\obj\Debug\net8.0\ref\Canvas.dll

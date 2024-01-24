@@ -1,6 +1,6 @@
 namespace Canvas.Models{
 
-    internal class Assignment 
+    public class Assignment 
     {
         public string? Name {get; set;}
         
