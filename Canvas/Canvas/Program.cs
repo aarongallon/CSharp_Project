@@ -1,4 +1,5 @@
 ﻿using System;
+using Canvas.Models;
 
 namespace Canvas // Note: actual namespace depends on the project name.
 {
@@ -7,6 +8,8 @@ namespace Canvas // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var myCourse = new Course();
         }
     }
 }

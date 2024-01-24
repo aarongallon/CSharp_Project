@@ -12,3 +12,4 @@
 /Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/Canvas.pdb
 /Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/Canvas.genruntimeconfig.cache
 /Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/ref/Canvas.dll
+/Users/aarongallon/CSharp_project/CSharp_Project/Canvas/Canvas/obj/Debug/net8.0/Canvas.sourcelink.json
