@@ -1,3 +1,6 @@
+using Canvas.Models;
+using Canvas.Services;
+
 namespace Canvas{
 
     public class CourseHelper
@@ -11,9 +14,10 @@ namespace Canvas{
             Console.WriteLine("What is naem of the course?");
             var name = Console.ReadLine();
             Console.WriteLine("What is the descritption of the course?");
-            var description = Console.ReadLine();\
+            var description = Console.ReadLine();
 
             var course = new Course
+
             {
                 Code = code,
                 Name = name,

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aarongallon/C-combo-1/Canvas/Canvas/Canvas.csproj",
+      "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj",
       "projectName": "Canvas",
-      "projectPath": "/Users/aarongallon/C-combo-1/Canvas/Canvas/Canvas.csproj",
+      "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj",
       "packagesPath": "/Users/aarongallon/.nuget/packages/",
-      "outputPath": "/Users/aarongallon/C-combo-1/Canvas/Canvas/obj/",
+      "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aarongallon/.nuget/NuGet/NuGet.Config"
