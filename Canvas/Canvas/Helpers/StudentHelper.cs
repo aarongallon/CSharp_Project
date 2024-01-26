@@ -1,3 +1,4 @@
+using System.Data.Common;
 using Canvas.Models;
 using Canvas.Services;
 using static Canvas.Models.Person;
@@ -7,7 +8,7 @@ namespace Canvas.Helpers{
     internal class StudentHelper
     {
         private StudentService studentService = new StudentService();
-        public void CreateStudentRecord()
+        public void AddOrUpdateStudent(Person? selectedStudent = null )
         {
             //list for adding students
 
@@ -34,17 +35,38 @@ else if (classification.Equals("S", StringComparison.InvariantCultureIgnoreCase)
 }
 #pragma warning restore CS8602 // Dereference of a possibly null reference.
 
+bool isCreate = false;
+if(selectedStudent == null)
+{   
+    isCreate = true;
+    selectedStudent = new Person();
 
-var student = new Person
-{
-    Id = int.Parse(id ?? "0"),
-    Name = name ?? string.Empty,
-    Classification = classEnum
-};
+}
 
-studentService.Add(student);
+selectedStudent.Id = int.Parse(id?? "0");
+selectedStudent.Name = name ?? string.Empty;
+selectedStudent.Classification = classEnum;
+
+if(isCreate){
+studentService.Add(selectedStudent);
+}
 //add student to a list
         }
+
+public void UpdateStudentRecord(){
+    Console.WriteLine("Select student to update");
+    ListStudents();
+
+    var selectionStr = Console.ReadLine();
+
+    if(int.TryParse(selectionStr, out int selectionInt)){
+        var selectedStudent = studentService.Students.FirstOrDefault(s => s.Id ==  selectionInt);
+        if(selectedStudent != null)
+        {
+            AddOrUpdateStudent(selectedStudent);
+        }
+    }
+}
 
 public void ListStudents(){
     studentService.Students.ForEach(Console.WriteLine);
