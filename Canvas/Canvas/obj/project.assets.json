@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Corso\\.nuget\\packages\\": {}
+    "/Users/aarongallon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Corso\\Desktop\\Canvas\\Canvas\\Canvas.csproj",
+      "projectUniqueName": "/Users/aarongallon/C-combo-1/Canvas/Canvas/Canvas.csproj",
       "projectName": "Canvas",
-      "projectPath": "C:\\Users\\Corso\\Desktop\\Canvas\\Canvas\\Canvas.csproj",
-      "packagesPath": "C:\\Users\\Corso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Corso\\Desktop\\Canvas\\Canvas\\obj\\",
+      "projectPath": "/Users/aarongallon/C-combo-1/Canvas/Canvas/Canvas.csproj",
+      "packagesPath": "/Users/aarongallon/.nuget/packages/",
+      "outputPath": "/Users/aarongallon/C-combo-1/Canvas/Canvas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Corso\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/aarongallon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

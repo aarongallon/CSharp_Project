@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Canvas
-build_property.ProjectDir = c:\Users\Corso\Desktop\Canvas\Canvas\
+build_property.ProjectDir = /Users/aarongallon/C-combo-1/Canvas/Canvas/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

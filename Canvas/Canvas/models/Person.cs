@@ -8,12 +8,23 @@ public class Person {
 
     public Dictionary<int, double> Grades {get; set;}
 
-    public char Classification  {get; set;}
+    public PersonClassification Classification  {get; set;}
 
     public Person(){
         Name  = string.Empty;
         Grades = new Dictionary<int, double>();
     }
-}
+
+        public override string ToString()
+        {
+            string v = $"[{Id}] {Name} - {Classification.ToString()}";
+            return v;
+        }
+
+        public enum PersonClassification
+        {
+            Freshman, Sophmore, Junior, Senior
+        }
+    }
 
 }
