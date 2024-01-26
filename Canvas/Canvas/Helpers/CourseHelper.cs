@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+using Canvas.Helpers;
 using Canvas.Models;
 using Canvas.Services;
 
@@ -5,7 +7,14 @@ namespace Canvas{
 
     public class CourseHelper
     {
-        private CourseService courseService = new CourseService();
+        private CourseService courseService;
+        private StudentService studentService;
+
+        public CourseHelper(StudentService ssrvc )
+        {
+            studentService = ssrvc;
+            courseService = CourseService.Current;
+        }
 
         public void CreateCourseRecord(Course? selectedCourse = null)
         {
@@ -15,6 +24,34 @@ namespace Canvas{
             var name = Console.ReadLine();
             Console.WriteLine("What is the descritption of the course?");
             var description = Console.ReadLine();
+
+            Console.WriteLine("Which students should be enrolled in this course? ('Q' to quit"); 
+            var roster = new List<Person>();
+            bool continueAdding = true;
+            while(continueAdding)
+            {
+                   studentService.Students.Where(s => !roster.Any(s2 => s2.Id == s.Id)).ToList().ForEach(Console.WriteLine);
+                   var selection = "Q";
+                    if(studentService.Students.Any(s => !roster.Any(s2 => s2.Id == s.Id)))
+                    {
+                     selection = Console.ReadLine() ?? string.Empty;
+                    }
+                
+
+                   if(selection.Equals("Q", StringComparison.InvariantCultureIgnoreCase) || !studentService.Students.Any(s => !roster.Any(s2 => s2.Id == s.Id))){
+                    continueAdding = false;
+                   }
+                   else
+                   {
+                    var selectedId = int.Parse(selection);
+                    var selectedStudent = studentService.Students.FirstOrDefault(s => s.Id == selectedId );
+
+                    if(selectedStudent!=null){
+                        roster.Add(selectedStudent);
+                    }
+                   }
+                   
+            }
             
             bool isNewCourse = false;
             if(selectedCourse == null){
@@ -26,6 +63,8 @@ namespace Canvas{
                  selectedCourse.Code = code;
                  selectedCourse.Name = name;
                  selectedCourse.Description = description;
+                 selectedCourse.Roster = new List<Person>();
+                 selectedCourse.Roster = roster;
 
                  if(isNewCourse)
                  {
@@ -52,6 +91,13 @@ namespace Canvas{
 
         public void ListCourses(){
             courseService.Courses.ForEach(Console.WriteLine);
+        }
+
+        public void SearchCourses()
+        {
+            Console.WriteLine("Enter a query");
+            var query = Console.ReadLine() ?? string.Empty;
+            courseService.Search(query).ToList().ForEach(Console.WriteLine);
         }
     }
 }

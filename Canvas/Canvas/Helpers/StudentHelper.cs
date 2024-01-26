@@ -1,13 +1,22 @@
 using System.Data.Common;
+using System.Xml.Xsl;
 using Canvas.Models;
 using Canvas.Services;
+using Microsoft.VisualBasic;
 using static Canvas.Models.Person;
 
 namespace Canvas.Helpers{
 
     internal class StudentHelper
     {
-        private StudentService studentService = new StudentService();
+        private StudentService studentService;
+        private CourseService courseService; 
+
+        public StudentHelper(StudentService ssrvc)
+        {
+            studentService = ssrvc;
+            courseService = CourseService.Current;
+        }
         public void AddOrUpdateStudent(Person? selectedStudent = null )
         {
             //list for adding students
@@ -70,7 +79,15 @@ public void UpdateStudentRecord(){
 
 public void ListStudents(){
     studentService.Students.ForEach(Console.WriteLine);
-}
+
+    Console.WriteLine("Select a student");
+    var selectionStr = Console.ReadLine();
+    var selectionInt = int.Parse(selectionStr ?? "0"); 
+
+    Console.WriteLine("Student Course List: ");
+    courseService.Courses.Where(c => c.Roster.Any(s => s.Id == selectionInt)).ToList().ForEach(Console.WriteLine);
+    
+}   
 
 public void SearchStudents()
 {
@@ -78,6 +95,13 @@ public void SearchStudents()
     var query = Console.ReadLine() ?? string.Empty;
 
     studentService.Search(query).ToList().ForEach(Console.WriteLine);
+
+     var selectionStr = Console.ReadLine();
+    var selectionInt = int.Parse(selectionStr ?? "0"); 
+
+    Console.WriteLine("Student Course List: ");
+    courseService.Courses.Where(c => c.Roster.Any(s => s.Id == selectionInt)).ToList().ForEach(Console.WriteLine);
+
 }
 
     }

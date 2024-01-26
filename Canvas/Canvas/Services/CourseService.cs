@@ -5,7 +5,25 @@ using Canvas.Models;
 namespace Canvas.Services{
     public class CourseService
     {
-        public List<Course> courseList= new List<Course>();
+        private  List<Course> courseList= new List<Course>();
+        private static CourseService? _instance;
+
+        public static CourseService Current
+        {
+            get
+            {
+                if(_instance == null)
+                {
+                    _instance = new CourseService();
+                }
+                return _instance;
+            }
+        }
+
+        private CourseService()
+        {
+            courseList = new List<Course>();
+        }
 
          public void Add(Course course)
         {
@@ -18,6 +36,13 @@ namespace Canvas.Services{
             {
                 return courseList;
             }
+        }
+
+         public IEnumerable<Course> Search(string query)
+        {
+            return Courses.Where(s => s.Name.ToUpper().Contains(query.ToUpper())
+            || s.Description.ToUpper().Contains(query.ToUpper())
+            || s.Code.ToUpper().Contains(query.ToUpper()));
         }
     }
 }
