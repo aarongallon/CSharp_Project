@@ -48,7 +48,11 @@ internal class Program
                 {
                     courseHelper.CreateCourseRecord();
                 }
-                else if (result == 6)
+                else if(result == 6)
+                {
+                    courseHelper.ListCourses();
+                }
+                else if (result == 7)
                 {
                     cont = false;
                 }

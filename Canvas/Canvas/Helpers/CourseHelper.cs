@@ -29,5 +29,9 @@ namespace Canvas{
 
             courseService.courseList.ForEach(Console.WriteLine);
         }
+
+        public void ListCourses(){
+            courseService.Courses.ForEach(Console.WriteLine);
+}
     }
 }
