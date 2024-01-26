@@ -22,7 +22,9 @@ internal class Program
             Console.WriteLine("3. List students");
             Console.WriteLine("4. Search for student");
             Console.WriteLine("5. Add course");
-            Console.WriteLine("6. Exit");
+            Console.WriteLine("6. update a course");
+            Console.WriteLine("7. List all courses");
+            Console.WriteLine("8. Exit");
             var input = Console.ReadLine();
             if (int.TryParse(input, out int result))
             {
@@ -48,7 +50,15 @@ internal class Program
                 {
                     courseHelper.CreateCourseRecord();
                 }
-                else if (result == 6)
+                else if(result == 6)
+                {
+                    courseHelper.UpdateCourseRecord();
+                }
+                else if(result == 7)
+                {
+                    courseHelper.ListCourses();
+                }
+                else if (result == 8)
                 {
                     cont = false;
                 }
