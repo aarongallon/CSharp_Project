@@ -19,7 +19,7 @@ internal class Program
         {
             Console.WriteLine("Choose an action");
             Console.WriteLine("1. Add a student enrollment");
-            Console.WriteLine("2. Update a studetnt");
+            Console.WriteLine("2. Update a student");
             Console.WriteLine("3. List students");
             Console.WriteLine("4. Search for student");
             Console.WriteLine("5. Add course");
