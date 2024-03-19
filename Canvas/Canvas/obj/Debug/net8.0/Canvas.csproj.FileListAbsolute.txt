@@ -42,6 +42,9 @@ c:/Users/Corso/Desktop/Canvas/Canvas/obj/Debug/net8.0/ref/Canvas.dll
 /Users/aarongallon/C-combo-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.pdb
 /Users/aarongallon/C-combo-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.genruntimeconfig.cache
 /Users/aarongallon/C-combo-1/Canvas/Canvas/obj/Debug/net8.0/ref/Canvas.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.deps.json
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.pdb
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.GeneratedMSBuildEditorConfig.editorconfig
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.AssemblyInfoInputs.cache
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.AssemblyInfo.cs
@@ -50,10 +53,4 @@ c:/Users/Corso/Desktop/Canvas/Canvas/obj/Debug/net8.0/ref/Canvas.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/refint/Canvas.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.pdb
-/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas
-/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.deps.json
-/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.runtimeconfig.json
-/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.dll
-/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/bin/Debug/net8.0/Canvas.pdb
-/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/Canvas.genruntimeconfig.cache
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/Debug/net8.0/ref/Canvas.dll

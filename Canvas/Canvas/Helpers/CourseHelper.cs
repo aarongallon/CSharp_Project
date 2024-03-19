@@ -53,7 +53,7 @@ namespace Canvas{
                    
             }
 
-            Console.WriteLine("Would Like to add assignments? (Y?N)"); 
+            Console.WriteLine("Would Like to add assignments? (Y/N)"); 
             var assignResponse = Console.ReadLine() ?? "N";
             var assignments = new List<Assignment>();
 
