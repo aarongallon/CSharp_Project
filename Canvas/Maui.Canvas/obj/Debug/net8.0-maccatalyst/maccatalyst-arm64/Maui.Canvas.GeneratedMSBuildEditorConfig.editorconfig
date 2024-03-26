@@ -52,6 +52,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Canvas.Views.Instruct
 build_metadata.AdditionalFiles.TargetPath = Views/InstructorView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views/InstructorView.xaml
 
+[/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/Views/PersonDetailView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Canvas.Views.PersonDetailView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PersonDetailView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PersonDetailView.xaml
+
 [/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/Views/StudentView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUI.Canvas.Views.StudentView.xaml
