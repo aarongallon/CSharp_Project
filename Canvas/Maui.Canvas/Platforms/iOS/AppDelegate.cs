@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Maui.Canvas;
+namespace MAUI.Canvas;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

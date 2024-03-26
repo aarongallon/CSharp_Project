@@ -47,32 +47,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MonoBundle/Canvas.dll</key>
+		<key>MonoBundle/Library.Canvas.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mHZYJO7AgsO7u1cqybQj9WtmGcKtgLJR3JJjT+iZW6Y=
+			DfDTvfh7+Kj1+s4U/YR7fZHS5ckzbb3dvAR4n43geeY=
 			</data>
 		</dict>
-		<key>MonoBundle/Canvas.pdb</key>
+		<key>MonoBundle/Library.Canvas.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v73KDjxalzJTCP++vD1Cv1uigjKzazr0WMhhKv+BYqE=
+			lpniER0FkXxkas1L41WrVlO1qiVmrZdOR+ilhXtiGOA=
 			</data>
 		</dict>
-		<key>MonoBundle/Maui.Canvas.dll</key>
+		<key>MonoBundle/MAUI.Canvas.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BbKNMS06m+CSL0lNLUIWER39sX+v0k5KpRfbacMJBrg=
+			dSkze4i6q6vGuKhnggjpa2oaR5SMzV/MDOhgCyZPkbM=
 			</data>
 		</dict>
-		<key>MonoBundle/Maui.Canvas.pdb</key>
+		<key>MonoBundle/MAUI.Canvas.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zn7MrqldudjuDdK8m5boE/0semS087Mr0ZBTWDYixfM=
+			XPWAtWOv/+E+bui1jEZ3v6BQO7UpBOshme1D2mj2GDA=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <_PostProcessingItem Include="Maui.Canvas.app/Contents/MacOS/Maui.Canvas">
-      <BCSymbolMapName>Maui.Canvas.bcsymbolmap</BCSymbolMapName>
+    <_PostProcessingItem Include="MAUI.Canvas.app/Contents/MacOS/MAUI.Canvas">
+      <BCSymbolMapName>MAUI.Canvas.bcsymbolmap</BCSymbolMapName>
       <NoDSymUtil>true</NoDSymUtil>
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
-      <dSYMInfoPlistRelativePath>Maui.Canvas.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
-      <DSymName>Maui.Canvas.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas</SourceProjectPath>
+      <dSYMInfoPlistRelativePath>MAUI.Canvas.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>MAUI.Canvas.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

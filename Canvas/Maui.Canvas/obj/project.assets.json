@@ -2208,14 +2208,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -4426,14 +4426,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -6644,14 +6644,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -8862,14 +8862,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -11080,14 +11080,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -13298,14 +13298,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -15516,14 +15516,14 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -15948,14 +15948,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -16380,14 +16380,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -16812,14 +16812,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -17244,14 +17244,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -17676,14 +17676,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -18108,14 +18108,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -18540,14 +18540,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -18972,14 +18972,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -19404,14 +19404,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -19836,14 +19836,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -20268,14 +20268,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -20700,14 +20700,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -21132,14 +21132,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     },
@@ -21564,14 +21564,14 @@
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Canvas/1.0.0": {
+      "Library.Canvas/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Canvas.dll": {}
+          "bin/placeholder/Library.Canvas.dll": {}
         }
       }
     }
@@ -24838,29 +24838,29 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
-    "Canvas/1.0.0": {
+    "Library.Canvas/1.0.0": {
       "type": "project",
-      "path": "../Canvas/Canvas.csproj",
-      "msbuildProject": "../Canvas/Canvas.csproj"
+      "path": "../Canvas.Library/Library.Canvas.csproj",
+      "msbuildProject": "../Canvas.Library/Library.Canvas.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
-      "Canvas >= 1.0.0",
+      "Library.Canvas >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
       "Microsoft.NET.ILLink.Tasks >= 8.0.1"
     ],
     "net8.0-ios17.2": [
-      "Canvas >= 1.0.0",
+      "Library.Canvas >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
       "Microsoft.NET.ILLink.Tasks >= 8.0.1"
     ],
     "net8.0-maccatalyst17.2": [
-      "Canvas >= 1.0.0",
+      "Library.Canvas >= 1.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
@@ -24873,11 +24873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj",
-      "projectName": "Maui.Canvas",
-      "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj",
+      "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj",
+      "projectName": "MAUI.Canvas",
+      "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj",
       "packagesPath": "/Users/aarongallon/.nuget/packages/",
-      "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/obj/",
+      "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
@@ -24896,24 +24896,24 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
-              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj"
+            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
             }
           }
         },
         "net8.0-ios17.2": {
           "targetAlias": "net8.0-ios",
           "projectReferences": {
-            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
-              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj"
+            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
             }
           }
         },
         "net8.0-maccatalyst17.2": {
           "targetAlias": "net8.0-maccatalyst",
           "projectReferences": {
-            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
-              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj"
+            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
             }
           }
         }

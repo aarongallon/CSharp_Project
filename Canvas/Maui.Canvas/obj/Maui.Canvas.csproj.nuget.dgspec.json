@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj": {}
+    "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj": {}
   },
   "projects": {
-    "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
+    "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj",
-        "projectName": "Canvas",
-        "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj",
+        "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj",
+        "projectName": "Library.Canvas",
+        "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj",
         "packagesPath": "/Users/aarongallon/.nuget/packages/",
-        "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/obj/",
+        "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/aarongallon/.nuget/NuGet/NuGet.Config"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj": {
+    "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj",
-        "projectName": "Maui.Canvas",
-        "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj",
+        "projectUniqueName": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj",
+        "projectName": "MAUI.Canvas",
+        "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj",
         "packagesPath": "/Users/aarongallon/.nuget/packages/",
-        "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/obj/",
+        "outputPath": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -84,24 +84,24 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
-                "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj"
+              "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+                "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
               }
             }
           },
           "net8.0-ios17.2": {
             "targetAlias": "net8.0-ios",
             "projectReferences": {
-              "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
-                "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj"
+              "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+                "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
               }
             }
           },
           "net8.0-maccatalyst17.2": {
             "targetAlias": "net8.0-maccatalyst",
             "projectReferences": {
-              "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj": {
-                "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj"
+              "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+                "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
               }
             }
           }

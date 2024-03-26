@@ -1,4 +1,4 @@
-﻿namespace Maui.Canvas;
+﻿namespace MAUI.Canvas;
 
 public partial class AppShell : Shell
 {

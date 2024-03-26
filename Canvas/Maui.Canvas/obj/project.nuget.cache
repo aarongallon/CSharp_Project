@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7xywkCA6TqU6QRDrYoLzHyZk9QFCLqrcgJa4RHHjWOiKnzSF3Qn88xBlv3+k0F8MFuHIR+h4kM6g1mvDe46PIw==",
+  "dgSpecHash": "3pXLdvyMsmuuGtVLgxCQkhnp/5iC15fOFMFOEI2bILOP47VZ8znTFz7/HQ8oX7LkbSlr1kkjMwJ1FCzKkZgnPQ==",
   "success": true,
-  "projectFilePath": "/Users/aarongallon/CSharp_Project-1/Canvas/Maui.Canvas/Maui.Canvas.csproj",
+  "projectFilePath": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj",
   "expectedPackageFiles": [
     "/Users/aarongallon/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/aarongallon/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",

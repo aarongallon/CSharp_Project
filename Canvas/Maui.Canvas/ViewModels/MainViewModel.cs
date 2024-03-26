@@ -1,8 +1,8 @@
-using Canvas.Models;
+﻿using Library.Canvas;
 
-namespace MAUI.Canvas.ViewModels
+namespace MAUI.Canvas;
+
+public class MainViewModel
 {
-    internal class MainViewModel{
-        public List<Person> Students {get; set;}= new List<Person>();
-    }
+    public List<Person> Students {get; set; } = new List<Person>();
 }

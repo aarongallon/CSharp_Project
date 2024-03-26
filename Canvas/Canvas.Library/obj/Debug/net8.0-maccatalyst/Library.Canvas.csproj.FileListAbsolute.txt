@@ -1,0 +1,8 @@
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/actool/_PartialAppManifest.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/actool/_BundleResourceWithLogicalName.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/actool/_ProcessedImageAssetsPath.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/coremlc/_PartialAppManifest.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/coremlc/_BundleResourceWithLogicalName.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/_ProcessedBundleResourcesPath.items
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0-maccatalyst/_ProcessedContentPath.items

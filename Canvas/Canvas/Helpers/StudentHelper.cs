@@ -1,11 +1,10 @@
-using System.Data.Common;
-using System.Xml.Xsl;
-using Canvas.Models;
 using Canvas.Services;
-using Microsoft.VisualBasic;
-using static Canvas.Models.Person;
+using Library.Canvas;
+using static Library.Canvas.Person;
 
-namespace Canvas.Helpers{
+
+namespace Canvas.Helpers
+{
 
     internal class StudentHelper
     {

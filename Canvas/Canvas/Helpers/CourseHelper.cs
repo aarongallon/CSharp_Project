@@ -1,9 +1,9 @@
-using System.Runtime.CompilerServices;
-using Canvas.Helpers;
-using Canvas.Models;
 using Canvas.Services;
+using Library.Canvas;
+using Libray.Canvas;
 
-namespace Canvas{
+namespace Canvas.Helpers
+{
 
     public class CourseHelper
     {

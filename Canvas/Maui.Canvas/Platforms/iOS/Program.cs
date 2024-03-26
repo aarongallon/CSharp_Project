@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Maui.Canvas;
+namespace MAUI.Canvas;
 
 public class Program
 {

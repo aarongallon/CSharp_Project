@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace Maui.Canvas;
+namespace MAUI.Canvas;
 
 public static class MauiProgram
 {

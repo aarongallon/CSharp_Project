@@ -1,9 +1,9 @@
-Maui.Canvas.MainActivity, Maui.Canvas;crc64a3f89d2d66185a7c.MainActivity
-Maui.Canvas.MainActivity;crc64a3f89d2d66185a7c.MainActivity
-maui.canvas.MainActivity;crc64a3f89d2d66185a7c.MainActivity
-Maui.Canvas.MainApplication, Maui.Canvas;crc64a3f89d2d66185a7c.MainApplication
-Maui.Canvas.MainApplication;crc64a3f89d2d66185a7c.MainApplication
-maui.canvas.MainApplication;crc64a3f89d2d66185a7c.MainApplication
+MAUI.Canvas.MainActivity, MAUI.Canvas;crc648a05337e8d8950b3.MainActivity
+MAUI.Canvas.MainActivity;crc648a05337e8d8950b3.MainActivity
+maui.canvas.MainActivity;crc648a05337e8d8950b3.MainActivity
+MAUI.Canvas.MainApplication, MAUI.Canvas;crc648a05337e8d8950b3.MainApplication
+MAUI.Canvas.MainApplication;crc648a05337e8d8950b3.MainApplication
+maui.canvas.MainApplication;crc648a05337e8d8950b3.MainApplication
 GoogleGson.IExclusionStrategy, GoogleGson;com.google.gson.ExclusionStrategy
 GoogleGson.IExclusionStrategy;com.google.gson.ExclusionStrategy
 com.google.gson.ExclusionStrategy;com.google.gson.ExclusionStrategy
