@@ -1,16 +1,14 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using Canvas;
-using Canvas.Helpers;
-using Canvas.Models;
+﻿using Canvas.Helpers;
 using Canvas.Services;
+
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        var studentHelper = new StudentHelper();
-        var courseHelper = new CourseHelper();
+        var studentSrvc= new StudentService();
+        var studentHelper = new StudentHelper(studentSrvc);
+        var courseHelper = new CourseHelper(studentSrvc);
 
         bool cont = true;
 
@@ -18,13 +16,14 @@ internal class Program
         {
             Console.WriteLine("Choose an action");
             Console.WriteLine("1. Add a student enrollment");
-            Console.WriteLine("2. Update a studetnt");
+            Console.WriteLine("2. Update a student");
             Console.WriteLine("3. List students");
             Console.WriteLine("4. Search for student");
             Console.WriteLine("5. Add course");
             Console.WriteLine("6. update a course");
             Console.WriteLine("7. List all courses");
-            Console.WriteLine("8. Exit");
+            Console.WriteLine("8. Search for course");
+            Console.WriteLine("9. Exit");
             var input = Console.ReadLine();
             if (int.TryParse(input, out int result))
             {
@@ -58,7 +57,12 @@ internal class Program
                 {
                     courseHelper.ListCourses();
                 }
-                else if (result == 8)
+                else if(result == 8)
+                {
+                    courseHelper.SearchCourses();
+                
+                }
+                else if (result == 9)
                 {
                     cont = false;
                 }

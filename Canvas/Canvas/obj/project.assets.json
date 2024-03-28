@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "Library.Canvas/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.Canvas.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.Canvas.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library.Canvas/1.0.0": {
+      "type": "project",
+      "path": "../Canvas.Library/Library.Canvas.csproj",
+      "msbuildProject": "../Canvas.Library/Library.Canvas.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "Library.Canvas >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/aarongallon/.nuget/packages/": {}
@@ -26,12 +45,17 @@
         "net8.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj": {
+              "projectPath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/Library.Canvas.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

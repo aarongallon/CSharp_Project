@@ -1,26 +1,34 @@
-using System.Data.Common;
-using Canvas.Models;
 using Canvas.Services;
-using static Canvas.Models.Person;
+using Library.Canvas;
+using static Library.Canvas.Person;
 
-namespace Canvas.Helpers{
+
+namespace Canvas.Helpers
+{
 
     internal class StudentHelper
     {
-        private StudentService studentService = new StudentService();
+        private StudentService studentService;
+        private CourseService courseService; 
+
+        public StudentHelper(StudentService ssrvc)
+        {
+            studentService = ssrvc;
+            courseService = CourseService.Current;
+        }
         public void AddOrUpdateStudent(Person? selectedStudent = null )
         {
             //list for adding students
 
 
-Console.WriteLine("What is the name of the studet?");
-var name = Console.ReadLine();
-Console.WriteLine("What is the id of the student?");
-var id = Console.ReadLine();
-Console.WriteLine("What is the Classification of the student? (F)reshman, S(O)phmore, (J)unior, (S)enior");
-var classification = Console.ReadLine();
-PersonClassification classEnum = PersonClassification.Freshman;
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            Console.WriteLine("What is the name of the studet?");
+            var name = Console.ReadLine();
+            Console.WriteLine("What is the id of the student?");
+            var id = Console.ReadLine();
+            Console.WriteLine("What is the Classification of the student? (F)reshman, S(O)phmore, (J)unior, (S)enior");
+            var classification = Console.ReadLine();
+            PersonClassification classEnum = PersonClassification.Freshman;
+            #pragma warning disable CS8602 // Dereference of a possibly null reference.
 if (classification.Equals("O", StringComparison.InvariantCultureIgnoreCase))
 {
     classEnum = PersonClassification.Sophmore;
@@ -63,14 +71,24 @@ public void UpdateStudentRecord(){
         var selectedStudent = studentService.Students.FirstOrDefault(s => s.Id ==  selectionInt);
         if(selectedStudent != null)
         {
+            
             AddOrUpdateStudent(selectedStudent);
         }
+    
     }
 }
 
 public void ListStudents(){
     studentService.Students.ForEach(Console.WriteLine);
-}
+
+    Console.WriteLine("Select a student");
+    var selectionStr = Console.ReadLine();
+    var selectionInt = int.Parse(selectionStr ?? "0"); 
+
+    Console.WriteLine("Student Course List: ");
+    courseService.Courses.Where(c => c.Roster.Any(s => s.Id == selectionInt)).ToList().ForEach(Console.WriteLine);
+    
+}   
 
 public void SearchStudents()
 {
@@ -78,6 +96,13 @@ public void SearchStudents()
     var query = Console.ReadLine() ?? string.Empty;
 
     studentService.Search(query).ToList().ForEach(Console.WriteLine);
+
+     var selectionStr = Console.ReadLine();
+    var selectionInt = int.Parse(selectionStr ?? "0"); 
+
+    Console.WriteLine("Student Course List: ");
+    courseService.Courses.Where(c => c.Roster.Any(s => s.Id == selectionInt)).ToList().ForEach(Console.WriteLine);
+
 }
 
     }

@@ -1,0 +1,12 @@
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/bin/Debug/net8.0/Library.Canvas.deps.json
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/bin/Debug/net8.0/Library.Canvas.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/bin/Debug/net8.0/Library.Canvas.pdb
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.AssemblyInfoInputs.cache
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.AssemblyInfo.cs
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.csproj.CoreCompileInputs.cache
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.sourcelink.json
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/refint/Library.Canvas.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.pdb
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/ref/Library.Canvas.dll
