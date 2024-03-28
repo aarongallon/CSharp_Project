@@ -12,6 +12,10 @@
 		<data>
 		Py602DNzTIMZuQPVRQviCcbSnsA=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -47,28 +51,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OuvCsJrpeXnyUbePBNJNtDYFBhmQRwI0xPGXTmCtP8w=
+			ewgx+elhtofa2v7uDKSks9TVIoEW25+/mCx5o2VOUEw=
 			</data>
 		</dict>
 		<key>MonoBundle/Library.Canvas.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3P+YZ8S2YLTTmseNyRMJi0/lInSoBMbM50axt9kO78I=
+			GcSJEJjjlysZYlGJ00Hq384Or0cEfyb0D33DUQumIcY=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUI.Canvas.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tuyGEx9zrMdYbOuB9CqGt6vBaRdCb02zt5Dem3CJwDU=
+			dOvzl2DF2CBl6N7dF1mtlX2zjRnL12DS9Kpqo/R6PNM=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUI.Canvas.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jioij1jcMbWlg3oCl5MwiW69dGq1x13Rt+38q1cLQOE=
+			inun048Exk5JSIjWRtSaDwkLUe5Y4viOKGNADJ+o32w=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -1637,6 +1641,13 @@
 			<key>hash2</key>
 			<data>
 			nNqiHjPnJLMPdPTzgUtWziKGRTzP71o1sYVc9T906kw=
+			</data>
+		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
