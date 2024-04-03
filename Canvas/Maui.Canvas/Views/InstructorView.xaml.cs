@@ -1,3 +1,5 @@
+using System.Runtime.InteropServices.ObjectiveC;
+using System.Security.Cryptography;
 using MAUI.Canvas.ViewModels;
 
 namespace MAUI.Canvas.Views;
@@ -19,5 +21,9 @@ public partial class InstructorView : ContentPage
 	{
 		Shell.Current.GoToAsync("//PersonDetail");
 	}
+
+	
+
 }
+	
 
