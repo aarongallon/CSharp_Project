@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI.Canvas.Views.InstructorView"
              Title="InstructorView"
-             
+             NavigatedTo="ContentPage_NavigatedTo"
              >
             
     <VerticalStackLayout>
@@ -11,12 +11,21 @@
             Text="INSTRUCTOR VIEW"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <ListView
-            ItemSource="{Binding People}">
+        <ListView ItemsSource="{Binding People}"
+        SelectedItem="{Binding SelectedPerson}">
+           
         </ListView>
         <Button
             Text="Add Enrollment"
             Clicked="AddEnrollmentClick"
+            />
+        <Button 
+            Text="Delete Enrollment"
+            Clicked="RemoveEnrollmentClick"
+            />
+        <Button
+             Text="Edit Enrollment"
+             Clicked="EditEnrollmentClick"
             />
         <Button
             Text="Cancel"
