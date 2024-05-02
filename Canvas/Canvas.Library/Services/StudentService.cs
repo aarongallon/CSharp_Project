@@ -1,6 +1,9 @@
 using Library.Canvas;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+
+
 
 namespace Canvas.Services
 {
@@ -15,8 +18,17 @@ namespace Canvas.Services
             new Person() { Name = "test" },
         };
 
+        
+
         // Private constructor ensures no external instantiation.
-        private StudentService() { }
+        private StudentService()
+        {
+            var response = new WebRequestHandler()
+                .Get("/Student").Result;
+            
+            
+        }
+
 
         // Static method to get the singleton instance with thread safety.
         public static StudentService Instance
@@ -46,6 +58,8 @@ namespace Canvas.Services
             }
         }
 
+        
+
         public void Add(Person student)
         {
             studentList.Add(student);
@@ -69,5 +83,7 @@ namespace Canvas.Services
         {
             return studentList.FirstOrDefault(s=>s.Id==id);
         }
+
+        
     }
 }

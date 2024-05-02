@@ -49,6 +49,7 @@
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/Microsoft.Maui.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/Microsoft.Maui.Essentials.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/Microsoft.Maui.Graphics.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/Newtonsoft.Json.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/Library.Canvas.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/MAUI.Canvas.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/publish/../MAUI.Canvas.app/Contents/MonoBundle/Microsoft.CSharp.dll

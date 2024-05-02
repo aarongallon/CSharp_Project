@@ -10,3 +10,4 @@
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/refint/Library.Canvas.dll
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.pdb
 /Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/ref/Library.Canvas.dll
+/Users/aarongallon/CSharp_Project-1/Canvas/Canvas.Library/obj/Debug/net8.0/Library.Canvas.csproj.AssemblyReference.cache

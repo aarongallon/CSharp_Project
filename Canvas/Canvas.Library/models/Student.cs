@@ -6,6 +6,13 @@ public class Student : Person
 
         public PersonClassification Classification { get; set; }
 
+        public Student(StudentDTO dto)
+        {
+            this.Id = dto.Id;
+            this.Name = dto.Name;
+            
+        }
+
         public Student() {
             Grades = new Dictionary<int, double>();
         }

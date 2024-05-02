@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3pXLdvyMsmuuGtVLgxCQkhnp/5iC15fOFMFOEI2bILOP47VZ8znTFz7/HQ8oX7LkbSlr1kkjMwJ1FCzKkZgnPQ==",
+  "dgSpecHash": "Xv/IW6M1Fq5gOCfj29xGSMH28v7e9J24MuQ0GUxhB5ZOz8W35OzaGck7CQYGOTPduu8qY9YRpFOUXhfaq4VylA==",
   "success": true,
   "projectFilePath": "/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/MAUI.Canvas.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/Users/aarongallon/.nuget/packages/microsoft.maui.graphics/8.0.7/microsoft.maui.graphics.8.0.7.nupkg.sha512",
     "/Users/aarongallon/.nuget/packages/microsoft.maui.resizetizer/8.0.7/microsoft.maui.resizetizer.8.0.7.nupkg.sha512",
     "/Users/aarongallon/.nuget/packages/microsoft.net.illink.tasks/8.0.1/microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+    "/Users/aarongallon/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/aarongallon/.nuget/packages/xamarin.android.glide/4.15.1.2/xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "/Users/aarongallon/.nuget/packages/xamarin.android.glide.annotations/4.15.1.2/xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "/Users/aarongallon/.nuget/packages/xamarin.android.glide.disklrucache/4.15.1.2/xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",
