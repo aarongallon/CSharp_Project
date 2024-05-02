@@ -51,28 +51,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ewgx+elhtofa2v7uDKSks9TVIoEW25+/mCx5o2VOUEw=
+			Hk8cD3+olPFrLKzKq2eCciGWPrlBscJEaRt8LVJ+HNU=
 			</data>
 		</dict>
 		<key>MonoBundle/Library.Canvas.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GcSJEJjjlysZYlGJ00Hq384Or0cEfyb0D33DUQumIcY=
+			z5auwSBr42BKS9OiZX9SLQ9OryunaDN6wP6knpDLYQw=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUI.Canvas.dll</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dOvzl2DF2CBl6N7dF1mtlX2zjRnL12DS9Kpqo/R6PNM=
+			rplJsrvwLjNKsXU7k1HeFmkL2wAUGg1kotAyMx7vlno=
 			</data>
 		</dict>
 		<key>MonoBundle/MAUI.Canvas.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			inun048Exk5JSIjWRtSaDwkLUe5Y4viOKGNADJ+o32w=
+			wACIjEpw+CDbLLYz6jniUUd5WNYhLl+tRAeIWvQYkwQ=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -227,6 +227,13 @@
 			<key>hash2</key>
 			<data>
 			00FH+TsgMTUcfdWOsY+vSPPNNoynDmp1lCXNjD7abzw=
+			</data>
+		</dict>
+		<key>MonoBundle/Newtonsoft.Json.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IsZJ91/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>

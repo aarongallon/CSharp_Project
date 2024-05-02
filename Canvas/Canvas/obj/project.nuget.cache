@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mAqV7Lf4b8L3KsfDTyv8JiZd1ujEWXNSxJOiXlXilK12eUHTmBmNYtq6L3pGPQKi22LBlmz8Usc+4vIQm1DaqQ==",
+  "dgSpecHash": "k0mmVz2hJy4KYuKsq7d+i99SrUnlm2ocYCGGykvRKyDcLY9Ez6Lxdv8jxOaSnOvwDiAWJeDEeyXiBIvIZIcxzQ==",
   "success": true,
   "projectFilePath": "/Users/aarongallon/CSharp_Project-1/Canvas/Canvas/Canvas.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/aarongallon/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

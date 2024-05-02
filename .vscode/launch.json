@@ -3,5 +3,38 @@
     // Hover to view descriptions of existing attributes.
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
-    "configurations": []
+    "configurations": [
+        {
+            "name": "[DEBUG] BioSnap",
+            "type": "maui",
+            "request": "launch",
+            "preLaunchTask": "maui: Build",
+            "project": "BioSnap",
+            "configuration": "Debug"
+        },
+        {
+            "name": "[DEBUG] Tests",
+            "type": "maui",
+            "request": "launch",
+            "preLaunchTask": "maui: Build",
+            "project": "Tests",
+            "configuration": "Debug"
+        },
+        {
+            "name": "[RELEASE] BioSnap",
+            "type": "maui",
+            "request": "launch",
+            "preLaunchTask": "maui: Build",
+            "project": "BioSnap",
+            "configuration": "Release"
+        },
+        {
+            "name": "[RELEASE] Tests",
+            "type": "maui",
+            "request": "launch",
+            "preLaunchTask": "maui: Build",
+            "project": "Tests",
+            "configuration": "Release"
+        }
+    ]
 }

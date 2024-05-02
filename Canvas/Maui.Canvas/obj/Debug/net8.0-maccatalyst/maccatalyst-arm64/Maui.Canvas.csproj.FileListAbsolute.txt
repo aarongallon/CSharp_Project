@@ -301,4 +301,4 @@
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MAUI.Canvas.pdb
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/MAUI.Canvas.genruntimeconfig.cache
 /Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/ref/MAUI.Canvas.dll
-/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/obj/Debug/net8.0-maccatalyst/maccatalyst-arm64/resourcestamps/Library.Canvas.stamp
+/Users/aarongallon/CSharp_Project-1/Canvas/MAUI.Canvas/bin/Debug/net8.0-maccatalyst/maccatalyst-arm64/Newtonsoft.Json.dll
